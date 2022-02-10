@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "CircularStd", sans-serif;
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1025px;
+	margin: 140px 208px 140px 207px;
+}
+.title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 1.26;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #313131;
+}
+.block1 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.26;
+	text-align: center;
+	margin-bottom: 224px;
+	color: #5F5F5F;;
+}
+.subtitle {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 1.24;
+	opacity: 0.88;
+	margin-bottom: 20px;
+	color: #313131;
+}
+.block2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.55;
+	margin-bottom: 125px;
+	color: #5F5F5F;
+}
+.subtitle2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	opacity: 0.88;
+	margin-bottom: 5px;
+	color: #313131;
+}
+.block3 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.27;
+	margin-bottom: 40px;
+	color: #B8B8B8;
+}
+.img img {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+.footer {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.25;
+	margin-bottom: 10px;
+	color: #5F5F5F;
+}
